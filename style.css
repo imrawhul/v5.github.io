@@ -1,0 +1,155 @@
+:root{  
+   --blue: #103dcb; 
+   /* --green: #76e375; 
+   --red: #ec5954; 
+   --orange: #f97949;  */
+  
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo-container {
+  text-decoration: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-container .logo-splash {
+  width: 4rem;
+}
+.logo-container h1 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: #ec5954;
+  letter-spacing: 3px;
+}
+.logo-container a {
+  text-decoration: none;
+}
+
+.bg-container {
+  background-color: #ec5954;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.bg-container .upper-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+.bg-container .upper-part .up1 {
+  display: flex;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+.bg-container .upper-part .up2 {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.bg-container .upper-part .up2 .rfrsh-logo {
+  font-size: 1.2rem;
+}
+.bg-container .upper-part .up2 .alltckts {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+.bg-container .upper-part .up3 {
+  display: flex;
+  align-items: center;
+}
+.bg-container .upper-part .up3 .issuewthtckt {
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+.bg-container .upper-part .up3 .whtspp {
+  height: 24px;
+  width: auto;
+}
+.bg-container .mn-container {
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  height: 28rem;
+  width: 90vw;
+  padding: 1.1rem;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px -1px rgba(0, 0, 0, 0.28);
+}
+.bg-container .mn-container .mc1 .mc__title {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.bg-container .mn-container .mc1 .mc1-1 {
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.bg-container .mn-container .mc1 .mc1-line {
+  margin-top: 0.8rem;
+  border-bottom: 1px solid #000;
+}
+.bg-container .mn-container .mc2 .mc2__title {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+.bg-container .mn-container .mc2 .mc2__data {
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+.bg-container .mn-container .mc2 .mc2__data .mc2-data-2nd {
+  font-weight: bold;
+}
+.bg-container .mn-container .mc4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container .mn-container .mc4 .ref__num {
+  font-size: 0.8rem;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+.bg-container .mn-container .mc4 .qr__btn {
+  text-decoration: none;
+}
+.bg-container .mn-container .mc4 .qr__btn button {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  width: 81vw;
+  font-size: 1.1rem;
+  background-color: #ec5954;
+  height: 3.25rem;
+  box-shadow: 0px 5px 15px -1px rgba(0, 0, 0, 0.28);
+}
+.bg-container .mn-container .mc4 .qr__btn .qr-btn-img {
+  margin-right: 12px;
+  height: 28px;
+}
+.bg-container .mn-container .mc4 .tckt__status {
+  padding-top: 1rem;
+  font-size: 1rem;
+}/*# sourceMappingURL=main.css.map */
